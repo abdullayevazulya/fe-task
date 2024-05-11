@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+h1{
+    text-align:center;
+    font-family:pacifico;
+
+}
+
+p{
+
+    font-size:1rem;
+    font-family:"pacifico";
+    text-align: justify;
+    margin: 0px 100px;
+    
+    
+    
+}
+ @font-face{
+    font-family:pacifico;
+    src: url("./Pacifico-Regular.ttf")
+ }
+ .sun-class{
+    color: rgb(226, 43, 131);
+ }
+ .fa-class{
+    color: rgb(226, 43, 131);
+ }
