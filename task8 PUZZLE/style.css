@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(36, 134, 214, 0.747);
+}
+
+h1{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+
+}
+.content{
+    margin: 100px 100px ;
+    justify-content: center;
+    
+    
+}
+
+.grid-box{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    
+}
+
+.grid-item{
+    width:250px;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+/* .grid-item:hover .img1{
+transform: translateX(250px);
+
+} */
+
+.grid-item .img1{
+    /* transform:translate(200px);z */
+    animation: linear moveimg1 2s forwards;
+    
+}
+
+
+@keyframes moveimg1 {
+    50%{
+        transform: translateX(250px);
+    }
+    100%{
+        transform: translate(249px ,146px);
+    }
+}
+
+.grid-item .img2{
+    animation: linear moveimg2 2s forwards;
+}
+@keyframes moveimg2{
+    100%{
+       transform:translateX(-250px) ;
+    }
+}
+.grid-item .img8{
+    animation:linear moveimg8 2s forwards ;
+}
+@keyframes moveimg8{
+    
+    100%{
+        transform: translateY(-290px);
+    }
+}
+.grid-item .img7{
+    animation: linear moveimg7 2s forwards;
+}
+@keyframes moveimg7{
+    100%{
+        transform:translateY(-145px) ;
+    }
+}
+.grid-item .img4{
+    animation: linear moveimg4 2s forwards;
+}
+@keyframes moveimg4{
+    100%{
+    transform: translateY(145px);
+    }
+}
+.grid-item .img9{
+    animation: linear moveimg9 2s forwards;
+}
+@keyframes moveimg9{
+    100%{
+        transform: translateX(-250px);
+    }
+}
+.grid-item .img5{
+    animation: linear moveimg5 2s forwards;
+}
+@keyframes moveimg5{
+    50%{
+        transform: translateX(240px);
+    }
+    100%{
+        transform: translate(250px ,146px);
+    }
+}
+.grid-item .img3{
+    animation: linear moveimg3 2s forwards;
+}
+@keyframes moveimg3{
+    100%{
+        transform: translateY(145px);
+    }
+}
+.grid-item .img6{
+    animation:linear moveimg6 2s forwards ;
+}
+@keyframes moveimg6{
+    100%{
+        transform: translateY(-145px);
+    }
+}
