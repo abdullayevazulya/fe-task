@@ -10,21 +10,56 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+     crossorigin="anonymous">
 
 
 </head>
 
 <body>
+
    <header>
     <div class="container">
         <nav>
-            <a href="#">How it Works</a>
-            <a href="#">The Membership</a>
-            <a href="#">The Blog</a>
-            <a href="#">Our Story</a>
-            <button class="main-btn">Get Started</button>
+            <div class="Bignavbar d-none d-md-flex align-items-center">
+                <a href="#" class="mx-3">How it Works</a>
+                <a href="#" class="mx-3">The Membership</a>
+                <a href="#" class="mx-3">The Blog</a>
+                <a href="#" class="mx-3">Our Story</a>
+                <button class="main-btn">Get Started</button>
+            </div>
+            <nav class="navbar bg-body-tertiary d-block d-md-none"> 
+                <div class="container-fluid"> 
+                  <a class="navbar-brand" href="#"></a> 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span> 
+                  </button> 
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"> 
+                    <div class="offcanvas-header"> 
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Get Started</h5> 
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+                    </div> 
+                    <div class="offcanvas-body"> 
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> 
+                        <li class="nav-item"> 
+                          <a class="nav-link active" aria-current="page" href="#">How it Wors</a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a class="nav-link active" aria-current="page" href="#">The Membership</a> 
+                          </li>
+                          <li class="nav-item"> 
+                            <a class="nav-link active" aria-current="page" href="#">The Blog</a> 
+                          </li>
+                          <li class="nav-item"> 
+                            <a class="nav-link active" aria-current="page" href="#">Our Story</a> 
+                          </li>
+                    </div> 
+                  </div> 
+                </div> 
+              </nav>
         </nav>
+    
     </div>
    </header>
 
@@ -45,8 +80,8 @@
 
 <section class="intro">
     <div class="container">
-        <div class="intro-content">
-            <div class="intro-content-text">
+        <div class="intro-content general">
+            <div class="intro-content-text child ">
                 <h2>Introducing Aro</h2>
 
                 <p>Aro is the first in-home digital wellbeing solution designed for families. 
@@ -60,7 +95,7 @@
            </div>
 
 
-              <div class="intro-content-image">
+              <div class="intro-content-image child">
                 <img src="./assets/images/intro-image.png" alt="">
 
               </div>
@@ -73,8 +108,8 @@
 
   <section class="spend">
     <div class="container">
-        <div class="spend-content">
-            <div class="spend-content-text">
+        <div class="spend-content general">
+            <div class="spend-content-text child">
             <h1>Spend quality <br> time together</h1>
 
             <p>We only get so much time with our kids--18 years goes by quickly. 
@@ -89,7 +124,7 @@
             </div>
             
             
-            <div class="spend-content-image">
+            <div class="spend-content-image child">
                 <img src="./assets/spend-image.png" alt="">
             </div>
         </div>
@@ -99,11 +134,11 @@
 
   <section class="kids">
     <div class="container">
-        <div class="kids-content">
-            <div class="kids-content-image">
+        <div class="kids-content general">
+            <div class="kids-content-image child">
                 <img src="./assets/kids(1).png" alt="">
             </div>
-            <div class="kids-content-text">
+            <div class="kids-content-text child">
                 <h1>Teach your kids <br>healthy habits</h1>
                 
                  <p> Giving your kids a smartphone is a stressful decision. <br> 
@@ -111,7 +146,7 @@
                     allows you to model good habits, and gives you <br>peace of mind 
                     knowing they have the tools to be safe <br>and successful.
                 </p>
-                <div class="kids-text">
+                <div class="kids-text child">
                     <h1>83%</h1>
                     <h5>of parents believe it's important to have time as a <br>family without screens present.</h5>
                     <h6>Source: The Genius of Play</h6>
@@ -125,8 +160,8 @@
 
   <section class="partner">
     <div class="container">
-        <div class="partner-content">
-            <div class="partner-content-text">
+        <div class="partner-content general">
+            <div class="partner-content-text child">
                 <h1>Reconnect with <br>your partner</h1>
 
                 <p> We’ve all been there. It’s the end of the day, the kids are finally asleep,
@@ -134,14 +169,14 @@
                      than connect with  the person right next to us. 
                     Putting your phone in Aro  shows your partner you are truly present with them.
                 ​</p>
-                <div class="partner-text">
+                <div class="partner-text child">
                     <h1>79%</h1>
                     <h5>of married couples admit technology distracts them <br> from connecting with each other.</h5>
                     <h6>Source: Lasting App</h6>
                 </div>
             </div>
 
-            <div class="partner-content-image">
+            <div class="partner-content-image child">
                 <img src="./assets/partner.png" alt="">
 
             </div>
@@ -152,7 +187,7 @@
   </section>
   <section class="take">
     <div class="container">
-        <div class="take-content">
+        <div class="take-content general">
             <div class="take-content-image">
                 <img src="./assets/Take.png" alt="">
             </div>
@@ -178,7 +213,7 @@
             <div class="feature-content">
                 <div class="feature-content-text">
                     <h1>Featured In</h1>
-                    <div class="feature-content-image">
+                    <div class="feature-content-image general">
                         <img src="./assets/IMAGE (1).png" alt="">
                         <img src="./assets/IMAGE (2).png" alt="">
                         <img src="./assets/IMAGE (3).png" alt="">
@@ -214,7 +249,7 @@
 
    <section class="experi">
     <div class="container">
-        <div class="experi-content">
+        <div class="experi-content general">
             <div class="experi-content-text">
             <h1>The Aro Experience</h1>
 
@@ -240,7 +275,7 @@
 
   <section class="app">
     <div class="container">
-        <div class="app-content">
+        <div class="app-content general">
             <div class="app-content-image">
                 <img src="./assets/App.png" alt="">
             </div>
@@ -263,7 +298,7 @@
     </div>
     <section class="home">
         <div class="container">
-            <div class="home-content">
+            <div class="home-content general">
                 <div class="home-content-text">
                 <h1>The Aro Home Device</h1>
     
@@ -300,8 +335,8 @@
 
        <section class="klay">
         <div class="container">
-            <div class="klay-section-content"> 
-                <div class="klay-text">
+            <div class="klay-section-content "> 
+                <div class="klay-text general">
                     <p>“I don’t want my kids constantly seeing me with my head down to be normal.
                          Aro gives us an invitation to put our phones away and 
                          allows us to be more present with each other.”
@@ -343,7 +378,7 @@
                     in the moments that matter
                 </p>
                 </div>
-                <div class="content-img">
+                <div class="content-img general">
                 <div class="img1">
                     <img src="./assets/image1(2).png" alt="">
                     <h1>Creates space from <br>your phone</h1>
@@ -356,18 +391,18 @@
 
                 </div>
 
-                <div class="img2">
+                <div class="img1">
                     <img src="./assets/image2 (1).png" alt="">
                     <h1>Gives you credit for intentional time</h1>
                     <p>We live in a gamified world - badges, streaks, achievements, 
                         and filling in that daily ring. Aro gives you credit for 
                         the time you spend engaged in real life because the reward
                          builds the habit of putting down your phone.
-                        </p>
+                    </p>
 
                 </div>
 
-                <div class="img3">
+                <div class="img1">
                     <img src="./assets/image3.png" alt="">
                     <h1>Designed with families in mind</h1>
                     <p>We’ve spent years researching, designing, and developing a solution
@@ -377,7 +412,7 @@
                         </p>
                 </div>
 
-                <div class="img4">
+                <div class="img1">
                     <img src="./assets/image4.png" alt="">
                     <h1>Aspirational,<br> yet practical</h1>
                     <p>No heavy handed approaches here. Getting rid of your phone or 
@@ -398,7 +433,7 @@
    
        <section class="self">
         <div class="container">
-            <div class="self-content">
+            <div class="self-content general">
              <div class="self-text">
                 <h1>89% of interactions <br>with our <br>smartphones are self-initiated.</h1>
                 <p>Source: Dr. Maxi Heitmayer</p>
@@ -425,7 +460,7 @@
    
     <section class="life">
         <div class="container">
-            <div class="life-content">
+            <div class="life-content general">
                <div class="lifeimg"> <div class="img1"></div>
                <div class="img2"></div>
             </div>
@@ -439,9 +474,9 @@
 
     </section>  
          
-    <section class="order">
+     <section class="order">
         <div class="container-order">
-            <div class="order-content">
+            <div class="order-content general">
                 <div class="order-text">
                     <h1>Order your Aro</h1>
                     <p>Join Aro now</p>
@@ -478,7 +513,7 @@
 
 
 
-    </section>
+    </section> 
 
 
     <div class="border">
@@ -486,9 +521,9 @@
 
     </div>
 
-    <section class="logos">
+   <section class="logos">
         <div class="container-logos">
-            <div class="logos-content">
+            <div class="logos-content general">
                 <div class="logos-text">
         
                     <p>The Bluetooth® word mark and logos are registered trademarks owned by <br> Bluetooth SIG,Inc. 
@@ -537,10 +572,11 @@
 
 
 
-    </section>
+    </section> 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+ 
 
 
 
