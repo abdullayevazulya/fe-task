@@ -132,11 +132,54 @@
 
 
 
+// String PART 3
+
+
+//TASK 1
+                      
+                        
+// function solution(text, letters) {
+//    if (text.endsWith(letters)) {
+//     return console.log(true); 
+//    } else {
+//     return console.log(false); 
+//    }
+// }
+
+
+
+// solution('abc', 'bc') // returns true
+// solution('abc', 'd') // returns false
 
 
 
 
+// TASK 2
 
+
+
+// function solve(text) {
+//     upperCase = 0
+//     lowerCase = 0;
+//     for (let i = 0; i < text.length; i++) {
+//         if (text.charAt(i) === text.charAt(i).toUpperCase()) {
+//             upperCase += 1
+//         }
+//           else  {lowerCase += 1}
+//     }    
+
+//     if (upperCase <= lowerCase) { 
+//         console.log(text.toLowerCase())
+
+//     } else {
+        
+//         console.log(text.toUpperCase());;}
+
+//     }
+
+// solve("coDe")
+// solve("CODe")
+// solve("COde")
 
 
 
