@@ -149,20 +149,3 @@
 
 
 
-// TASK10
-// let text = "Lorem ipsum dolar sit";
-// let text1 = "8aaaaa dddd r     "; 
-// let newText = text.replaceAll(" ", "")
-// let newText1 = text1.replaceAll(" ", "")
-// console.log(newText)
-// console.log(newText1);
-
-
-
-// TASK8
-// function myFunction(number, str) { 
-//     return console.log(str.repeat(number)); 
-// } 
- 
- 
-// myFunction(2, "Hello")
