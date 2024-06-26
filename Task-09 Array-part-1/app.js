@@ -23,4 +23,6 @@
 //     console.log(numbers);
 //     console.log(numbers2);
 
-
+// TASK 4 
+// let arr = ['New Hope', 'The Empire Strikes Back', 'Return of the Jdi'] 
+// console.log(`Episode IV: ${arr[0]}. Episode V: ${arr[1]}. Episode VI: ${arr[2]}`);
