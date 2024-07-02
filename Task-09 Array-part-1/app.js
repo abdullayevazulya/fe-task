@@ -7,7 +7,7 @@
 
 // // Task2
 // const firstname =["Aydan","Gülnaz","Gunel"] metod1
-// firstname[2]="Classified";
+// firstname[1]="Classified";
 // console.log(firstname);
 
 // const firstname=["Aydan","Gülnaz","Gunel"] metod2
@@ -33,3 +33,6 @@
 // let numbers = numbersText[0].replaceAll(',', ';'); 
  
 // console.log(numbers);
+
+
+
