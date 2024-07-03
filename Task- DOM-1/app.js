@@ -21,3 +21,11 @@
 
 // TASK4
 //Siyahının primary klasına sahib olan bütün elementlərini konsola çıxarın.
+// document.querySelectorAll(".primary").forEach((element) => { 
+//     console.dir(element.textContent) 
+// });
+
+// Task5
+// document.body.children[1].innerHTML = document.body.children[1].innerHTML.replaceAll("<li>", `<li class="item secondary">`) 
+// document.body.children[1].innerHTML = document.body.children[1].innerHTML.replaceAll("primary", `item primary`) 
+// console.dir(document.body.children[1].innerHTML)
