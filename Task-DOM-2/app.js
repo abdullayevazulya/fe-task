@@ -16,6 +16,9 @@ grey.onclick = () => {
 red.onclick = () => { 
    body.style.backgroundColor = "red" 
 } 
+
+
+
 blue.onclick = () => { 
    body.style.backgroundColor = "blue" 
 } 

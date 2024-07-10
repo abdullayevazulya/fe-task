@@ -7,7 +7,6 @@
 // document.body.children[0].remove() 
 // console.dir(document.body.children[0].textContent) 
  
- 
 // document.body.children[0].appendChild(document.createElement("li")).textContent =   "TITAN RTX" 
  
 // console.dir(document.body.children[0].textContent) 
@@ -20,7 +19,6 @@
 
 
 // TASK4
-//Siyahının primary klasına sahib olan bütün elementlərini konsola çıxarın.
 // document.querySelectorAll(".primary").forEach((element) => { 
 //     console.dir(element.textContent) 
 // });
@@ -29,3 +27,4 @@
 // document.body.children[1].innerHTML = document.body.children[1].innerHTML.replaceAll("<li>", `<li class="item secondary">`) 
 // document.body.children[1].innerHTML = document.body.children[1].innerHTML.replaceAll("primary", `item primary`) 
 // console.dir(document.body.children[1].innerHTML)
+

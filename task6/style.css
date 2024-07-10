@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+main{
+  margin-top: 100px;
+}
+.grid-container{
+    padding: 5px;
+    background-color:#fff;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(4,1fr);
+    
+    
+}
+.grid-item{
+ border: 5px solid #fff;
+padding: 5px;
+font-size: 30px;
+}
+
+.grid-item img{
+width: 100%;
+}
+
+
+.grid-item:first-child{
+grid-column: 1/ 3;
+
+}
+
+
